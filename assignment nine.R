@@ -1,3 +1,4 @@
+#data
 df = read.csv("/Users/sarahdippolito/Desktop/Affairs.csv")
 df$gender <- as.factor(df$gender)
 #Base R
