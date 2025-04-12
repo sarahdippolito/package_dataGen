@@ -1,8 +1,8 @@
 ---
 title: "dataGen-markdown"
 output:
-  pdf_document: default
   word_document: default
+  pdf_document: default
 date: "2025-04-11"    \\
 ---
 
@@ -17,6 +17,8 @@ This package will take user input and generate data sets accordingly.Features wi
 ***
 
 **Build_ds()**
+
+Creates a data set with user input.
 
 ___
 
@@ -44,6 +46,8 @@ dist_params=list(mean=10, sd=10, size=10, prob=0.5)
 ***
 
 **Rand_ds()**
+
+Creates a random data set with a specified number of rows and columns.
 
 ---
 
