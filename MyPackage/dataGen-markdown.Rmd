@@ -1,0 +1,72 @@
+---
+title: "dataGen-markdown"
+output:
+  pdf_document: default
+  word_document: default
+date: "2025-04-11"    \\
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Description
+
+This package will take user input and generate data sets accordingly.Features will include datasets with integers, floats, randomized characters, unique characters, booleans, random dates, date ranges, distributions, and columns with a specified number of missing values. Aside from that it will generate datasets that consist solely of NAs, zeros, or booleans. Lastly, it will come with randomly generated data sets. 
+
+***
+
+**Build_ds()**
+
+___
+
+Build_ds(   
+rows = n,  
+cols = m,  
+date_col="birthday",  
+date_range_start='2025-01-01',  
+date_range_end=Sys.Date(),  
+int_col="Age_days",  
+int_ranges = c(0,100),  
+letters_col="ABC",  
+unique_letter_col="first_initial",  
+float_col="float",  
+float_min=0,  
+float_max=10,  
+boolean_col="Brown_hair",  
+missing=NULL,  
+n_missing=0,  
+distribution_col="normal",  
+dist_type="normal",  
+dist_params=list(mean=10, sd=10, size=10, prob=0.5)  
+)  
+
+***
+
+**Rand_ds()**
+
+---
+
+Rand_ds(  
+rows=3,  
+cols=3  
+)
+
+***
+
+***school_data***
+
+
+dataset
+
+***
+
+
+***health_data***
+
+
+dataset
+
+
+
+
